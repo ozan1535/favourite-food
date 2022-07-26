@@ -1,0 +1,29 @@
+.count {
+  width: 50rem;
+  height: 10vh;
+  background-color: rgb(43, 154, 147);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.foodList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
